@@ -1,0 +1,170 @@
+<!--
+S1-6 is a project for reviewing and testing my current knowledge on section 1-6. It must use everything I have learn so far at least once, heres the list
+- Header tag = Done
+- Paragraph tag = Done
+- Break line = Done
+- Horizontal rule = Done
+- Images = Done
+- Unordered list = Done
+- Ordered list = Done
+- Nested list = Done
+- Hyperlink = 
+    - As a text = Done
+    - As a image
+- CSS usage = Done
+    - Inline = Done
+    - Internal = Done
+    - External = Done
+- Color text 
+- Background color
+- Font family
+- Font size
+- Text alignment
+
+-->
+
+<!DOCTYPE html>
+<html lang="en" style="background-color: #f1f0e8">
+	<head>
+		<meta charset="UTF-8" />
+		<title>One Piece</title>
+		<!-- The use of internal CSS is achieved -->
+		<style>
+			/*
+            Alternatively, Given the use of an id selector:
+
+
+            #devil-fruit-2::before {
+            font-weight: bold; 
+            }
+
+            */
+			ol li::marker {
+				font-weight: bold;
+				font-size: 1.5rem;
+			}
+
+			.Fruits {
+				font-size: 2.3rem;
+			}
+		</style>
+		<link rel="StyleSheet" href="./style.css" />
+	</head>
+	<body>
+		<!-- Next line completes the header tag -->
+		<h1>Top 5 Devil Fruits I Would Want</h1>
+
+		<hr />
+
+		<!-- Next line completes the use of an ordered list -->
+		<ol>
+			<div id="Fruit1Body">
+				<li class="Fruits" id="Fruit1Header">
+					<div>Human-Human Fruit, Model: Nika</div>
+				</li>
+				<div class="FruitContent">
+					<img
+						src="https://static.wikia.nocookie.net/onepiece/images/1/12/Gomu_Gomu_no_Mi_Infobox.png"
+						alt="Nika Fruit"
+						style="height: 240px; width: 200px"
+					/>
+					<div class="Reasons">
+						<h3>Reasons:</h3>
+						<ul>
+							<li>Its the MC's Fruit</li>
+						</ul>
+						<br />
+						<a href="./move1.html">Move List</a>
+					</div>
+				</div>
+			</div>
+
+			<br />
+			<div id="Fruit2Body">
+				<li class="Fruits" id="Fruit2Header">Ice-Ice Fruit</li>
+				<div class="FruitContent">
+					<img
+						src="https://i.redd.it/3hgn4yegcjuc1.jpeg"
+						alt="Ice Ice Fruit"
+						style="height: 240px; width: 200px"
+					/>
+					<div class="Reasons">
+						<h3>Reasons:</h3>
+						<ul>
+							<li>Blue</li>
+							<li>Stay chilled</li>
+							<li>Ice Sword</li>
+						</ul>
+						<br />
+						<a href="./move2.html">Move List</a>
+					</div>
+				</div>
+			</div>
+
+			<br />
+			<div id="Fruit3Body">
+				<li class="Fruits" id="Fruit3Header">Rumble-Rumble Fruit</li>
+				<div class="FruitContent">
+					<img
+						src="https://static.wikia.nocookie.net/onepiece/images/d/d2/Goro_Goro_no_Mi_Infobox.png"
+						alt="Rumble Rumble Fruit"
+						style="height: 240px; width: 200px"
+					/>
+					<div class="Reasons">
+						<h3>Reasons:</h3>
+						<ul>
+							<li>Blue</li>
+							<li>Super Speed</li>
+						</ul>
+						<br />
+						<a href="./move3.html">Move List</a>
+					</div>
+				</div>
+			</div>
+
+			<br />
+			<div id="Fruit4Body">
+				<li class="Fruits" id="Fruit4Header">Op-Op Fruit</li>
+				<div class="FruitContent">
+					<img
+						src="./Assets/op-op-fruit.webp"
+						alt="Op Op Fruit"
+						style="height: 240px; width: 200px"
+					/>
+					<div class="Reasons">
+						<h3>Reasons:</h3>
+						<ul>
+							<li>Blue Room</li>
+							<li>Teleportation</li>
+						</ul>
+						<br />
+						<a href="./move4.html">Move List</a>
+					</div>
+				</div>
+			</div>
+
+			<br />
+			<div id="Fruit5Body">
+				<li class="Fruits" id="Fruit5Header">
+					Fish-Fish Fruit, Model: Azure Dragon
+				</li>
+				<div class="FruitContent">
+					<img
+						src="https://preview.redd.it/zoro-eats-the-devil-fruit-of-kaido-how-strong-is-he-now-v0-v0ardgdhwhxc1.jpg?width=640&crop=smart&auto=webp&s=e8df83db71cf07918764be888918533b56b22da5"
+						alt="Fish Fish Fruit"
+						style="height: 240px; width: 200px"
+					/>
+					<div class="Reasons">
+						<h3>Reasons:</h3>
+						<ul>
+							<li>Blue</li>
+							<li>Dragon</li>
+						</ul>
+						<br />
+						<a href="./move5.html">Move List</a>
+					</div>
+				</div>
+			</div>
+		</ol>
+	</body>
+</html>

@@ -1,0 +1,50 @@
+
+
+#Fruit1Header {
+    background-color: #8174A0;
+}
+
+#Fruit1Body{
+    background-color: #A888B5;
+}
+
+#Fruit2Header {
+    background-color: #80C4E9;
+}
+
+#Fruit2Body{
+    background-color: #4335A7;
+}
+
+#Fruit3Header {
+    background-color: #5CB338;
+}
+
+#Fruit3Body{
+    background-color: #FFD95F;
+}
+
+#Fruit4Header {
+    background-color: #B33030;
+}
+
+#Fruit4Body{
+    background-color: #A1B57D;
+}
+
+#Fruit5Header {
+    background-color: #3674B5;
+}
+
+#Fruit5Body{
+    background-color: #A1E3F9;
+}
+
+.FruitContent{
+    display: flex;
+}
+
+.Reasons{
+    padding-left: 20px;
+}
+
